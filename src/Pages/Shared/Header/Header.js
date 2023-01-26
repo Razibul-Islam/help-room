@@ -14,6 +14,7 @@ const Header = () => {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/work">Our Work</Link></li>
+        <li><Link to="/login">Login</Link></li>
     </React.Fragment>
     return (
         <div>
