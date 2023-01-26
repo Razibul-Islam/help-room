@@ -4,6 +4,7 @@ import Login from "../../Login/Login";
 import Main from "../../Main/Main";
 import OurWork from "../../OurWork/OurWork";
 import Regester from "../../Regester/Regester";
+import SingleWork from "../../SingleWork/SingleWork";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "work",
         element: <OurWork />,
+      },
+      {
+        path: "singleWork",
+        element: <SingleWork></SingleWork>,
       },
     ],
   },
