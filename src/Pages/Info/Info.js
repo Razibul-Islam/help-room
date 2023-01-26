@@ -15,7 +15,7 @@ const Info = () => {
                     <img className='md:h-80 w-full' src={img1} alt="" />
                 </div>
             </div>
-            <div className='md:flex gap-6 mt-4'>
+            <div className='md:flex gap-6 mt-16'>
             <div className='md:w-[50%]'>
                     <img className='md:h-80 w-full' src={img1} alt="" />
                 </div>
