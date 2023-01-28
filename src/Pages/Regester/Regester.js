@@ -20,7 +20,7 @@ const Regester = () => {
                 <div className="mb-4 md:mr-2 md:mb-0">
                   <label
                     className="block mb-2 text-sm font-bold text-gray-700"
-                    htmlFor="firstName"
+                    htmlhtmlFor="firstName"
                   >
                     First Name
                   </label>
@@ -34,7 +34,7 @@ const Regester = () => {
                 <div className="md:ml-2">
                   <label
                     className="block mb-2 text-sm font-bold text-gray-700"
-                    htmlFor="lastName"
+                    htmlhtmlFor="lastName"
                   >
                     Last Name
                   </label>
@@ -49,7 +49,7 @@ const Regester = () => {
               <div className="mb-4">
                 <label
                   className="block mb-2 text-sm font-bold text-gray-700"
-                  htmlFor="email"
+                  htmlhtmlFor="email"
                 >
                   Email
                 </label>
@@ -63,7 +63,7 @@ const Regester = () => {
               <div className="mb-4">
                 <label
                   className="block mb-2 text-sm font-bold text-gray-700"
-                  htmlFor="photo"
+                  htmlhtmlFor="photo"
                 >
                   Photo
                 </label>
@@ -77,7 +77,7 @@ const Regester = () => {
                 <div className="mb-4 md:mr-2 md:mb-0">
                   <label
                     className="block mb-2 text-sm font-bold text-gray-700"
-                    htmlFor="password"
+                    htmlhtmlFor="password"
                   >
                     Password
                   </label>
@@ -91,7 +91,7 @@ const Regester = () => {
                 <div className="md:ml-2">
                   <label
                     className="block mb-2 text-sm font-bold text-gray-700"
-                    htmlFor="c_password"
+                    htmlhtmlFor="c_password"
                   >
                     Confirm Password
                   </label>

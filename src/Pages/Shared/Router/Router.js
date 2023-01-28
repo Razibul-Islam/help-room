@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import AddPost from "../../AddPost/AddPost";
 import Home from "../../Home/Home";
 import Login from "../../Login/Login";
 import Main from "../../Main/Main";
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "singleWork",
         element: <SingleWork></SingleWork>,
+      },
+      {
+        path: "addpost",
+        element: <AddPost></AddPost>,
       },
     ],
   },
