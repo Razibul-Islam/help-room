@@ -16,7 +16,7 @@ const Login = () => {
           <div className="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 w-11/12 mb-12 md:mb-0">
             <form>
               <div className="flex flex-row items-center justify-center lg:justify-start">
-                <p className="text-lg mb-0 mr-4">Sign in with</p>
+                <p className="text-lg mb-0 mr-4 dark:text-white text-black">Sign in with</p>
                 <button
                   type="button"
                   data-mdb-ripple="true"
