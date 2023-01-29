@@ -1,9 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
+import AddPost from "../../AddPost/AddPost";
 import Home from "../../Home/Home";
 import Login from "../../Login/Login";
 import Main from "../../Main/Main";
 import OurWork from "../../OurWork/OurWork";
-import Regester from "../../Regester/Regester";
+import Register from "../../Register/Register";
 import SingleWork from "../../SingleWork/SingleWork";
 
 const router = createBrowserRouter([
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/register",
-        element: <Regester></Regester>,
+        element: <Register></Register>,
       },
       {
         path: "work",
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "singleWork",
         element: <SingleWork></SingleWork>,
+      },
+      {
+        path: "addpost",
+        element: <AddPost></AddPost>,
       },
     ],
   },
