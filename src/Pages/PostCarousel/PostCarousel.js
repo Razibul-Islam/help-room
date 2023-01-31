@@ -11,7 +11,7 @@ import { Pagination, Navigation } from "swiper";
 
 const PostCarousel = () => {
     return (
-        <div className='my-4'>
+        <div className='my-10'>
             <h3 className='my-3 text-center capitalize font-bold text-3xl fill-stone-500'>Our regular active</h3>
             <>
             <Swiper

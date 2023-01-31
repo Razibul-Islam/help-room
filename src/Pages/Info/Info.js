@@ -3,7 +3,7 @@ import img1 from '../../img/Tohin.JPG'
 
 const Info = () => {
     return (
-        <div className='my-4'>
+        <div className='my-10'>
             <h1 className='text-center my-2 font-bold text-3xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, libero.</h1>
             <div className='md:flex gap-6 mt-4'>
                 <div className='md:w-[50%]'>
